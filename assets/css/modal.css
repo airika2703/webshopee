@@ -1,0 +1,72 @@
+/* Authen Modal */
+.auth-form {
+
+}
+
+.auth-form__container {
+    padding: 0 32px;
+}
+
+.auth-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-form__heading {
+    font-size:  22px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.auth-form__switch-btn {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    cursor: pointer;
+
+}
+
+.auth-form__form {
+    margin-top: 16px;
+}
+
+.auth-form__group {
+
+}
+
+.auth-form__input {
+
+}
+
+.auth-form__group {
+
+}
+
+.auth-form__input {
+
+}
+
+.auth-form__group {
+
+}
+
+.auth-form__input {
+
+}
+
+.auth-form__tittle {
+
+}
+
+.auth-form__policy-text {
+
+}
+
+.auth-form__policy-link {
+
+}
+
+.auth-form__policy-link {
+
+}

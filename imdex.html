@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./assets/img/download.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/qr_code.css">
+    <link rel="stylesheet" href="./assets/css/notify.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <title>Shopee</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--sticky">
+                            Kênh người bán
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--sticky">
+                            Trở thành Người bán shopee
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--sticky header__navbar-item--qr-hide">
+                            Tải ứng dụng
+                            <!-- Header Qr Code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qrcode.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__img-apps">
+                                    <a href="#" class="header__qr-link">
+                                        <img src="./assets/img/chplay.png" class="header__qr-apps" alt="CH Play">
+                                    </a>
+
+                                    <a href="#" class="header__qr-link">
+                                        <img src="./assets/img/appstorepng.png" class="header__qr-apps" alt="App Store">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="no-hover" class="header__navbar-item r ">
+                            Kết nối
+                            <a href="#" class="header__navbar--icon">
+                                <i class="header__navbar--ic fab fa-facebook"></i></a>
+                            <a href="#" class="header__navbar--icon">
+                                <i class="header__navbar-ic fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--notify-hide">
+                            <a href="#" class="header__navbar-item-link">
+                                <i id="no-hover" class="header__navbar-ic far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-heading">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-list-item ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bitly.com.vn/59s5kh" alt="Acer Nitro 5" class="header__notify-img">
+                                            <div class="header__notify-in4">
+                                                <span class="header__notify-name">Acer Nitro 5 Gaming vừa ra mắt </span>
+                                                <span class="header__notify-description">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-list-item header__notify-list-item--viewed ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bitly.com.vn/l7fant" alt="Laptop Gaming Asus" class="header__notify-img">
+                                            <div class="header__notify-in4">
+                                                <span class="header__notify-name">Asus TUF Gaming vừa ra mắt </span>
+                                                <span class="header__notify-description">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-list-item header__notify-list-item--viewed ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://bitly.com.vn/ena71f" alt="Laptop MSI Gaming GF65" class="header__notify-img">
+                                            <div class="header__notify-in4">
+                                                <span class="header__notify-name">Laptop MSI Gaming GF65 vừa ra mắt </span>
+                                                <span class="header__notify-description">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">
+                                            Xem tất cả
+                                        </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i id="no-hover" class="header__navbar-ic far fa-question-circle"></i>
+                                Hỗ trợ
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--bold  header__navbar-item--sticky">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li>  
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="container">
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+    <!-- Modal layout -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                
+                <!-- Authen form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu ">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu ">
+                        </div>
+                        </div>
+                        <div class="auth-form__tittle">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                                <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn">Trở lại</button>
+                            <button class="btn btn--primary">Đăng ký</button>
+                        </div>
+                    </div> 
+					
+                    <div class="auth-form__socials">
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fab fa-facebook-square"></i>
+                            Kết nối với Facebook
+                        </a>
+                        
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fab fa-google"></i>
+                            Kết nối với Google
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
