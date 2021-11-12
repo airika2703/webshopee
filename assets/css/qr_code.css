@@ -9,6 +9,7 @@
     padding: 8px;
     border-radius: 2px;
     animation: fadeIn ease-in 0.5s;
+    border: 1px solid var(--border-color);
 }
 
 
@@ -30,6 +31,7 @@
 .header__img-apps {
     display: flex;
     justify-content:space-between;
+    border:1px solid var(--border-color);
 
 }
 
@@ -39,5 +41,4 @@
 }
 
 .header__qr-link {
-
 }
